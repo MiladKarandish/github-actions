@@ -1,0 +1,8 @@
+name: Deploy To Liara
+run-name: deploy-to-liara
+on: [push]
+jobs:
+  DEPLOY-TO-LIARA:
+    runs-on: ubuntu-latest
+    steps:
+      - run: liara deploy
